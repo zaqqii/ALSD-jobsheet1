@@ -6,7 +6,7 @@ public class Tugas03 {
         
         System.out.print("Masukkan jumlah mata kuliah: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // Membersihkan buffer
+        scanner.nextLine(); 
         
         String[] namaMataKuliah = new String[n];
         int[] sks = new int[n];
@@ -21,7 +21,7 @@ public class Tugas03 {
             sks[i] = scanner.nextInt();
             System.out.print("Semester: ");
             semester[i] = scanner.nextInt();
-            scanner.nextLine(); // Membersihkan buffer
+            scanner.nextLine(); 
             System.out.print("Hari Kuliah: ");
             hariKuliah[i] = scanner.nextLine();
         }
